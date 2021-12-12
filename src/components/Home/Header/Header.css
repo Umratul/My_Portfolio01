@@ -1,0 +1,17 @@
+.resume_btn,.hireMe_btn{
+    margin: 30px 30px 10px 15px;
+    padding: 5px;
+    background-color:white;
+    color: rgb(52, 152, 219);
+    border: 2px solid rgb(52, 152, 219);
+    border-radius: 10px;
+    transition: 0.8s;
+}
+.resume_btn:hover,.hireMe_btn:hover{
+    background-color:rgb(43, 66, 128);
+    color: white;
+}
+.connection{
+    padding: -5px;
+    margin-right: -10px;
+}
