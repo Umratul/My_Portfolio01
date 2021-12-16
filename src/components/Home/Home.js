@@ -14,8 +14,11 @@ const Home = () => {
     const sliceProject = projects.slice(0, 2);
     return (
         <div>
-            <Header></Header>
-            <h1 className="text-primary fst-italic p-3">Some of My Projects</h1>
+            <div>
+                <Header></Header>
+            </div>
+            <div>
+            <h1 className="text-dark bg-info fst-italic p-3">Some of My Projects</h1>
             <div className="">
                 {
                     sliceProject.map(project => <Project
@@ -24,6 +27,7 @@ const Home = () => {
                     ></Project>)
                     }
                 </div>
+            </div>
         </div>
     );
 };

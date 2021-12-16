@@ -1,0 +1,19 @@
+.ft-body{
+    background: linear-gradient(90deg,rgb(243, 200, 233),#b4d4e9);
+    margin-bottom: -100px ;
+}
+a:link{
+    /* color: aqua; */
+    text-decoration: none;
+}
+*.icons
+ {
+     color: #be56e7;
+     /* background: linear-gradient(90deg,#9b2e2e,blue); */
+    }
+    .contact-info{
+        margin-left: 200px;
+    }
+    .text{
+        color: #120750;
+    }

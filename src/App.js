@@ -6,6 +6,8 @@ import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Navigation from './components/shared/Navigation/Navigation';
 import About from './components/Home/About/About';
+import Blogs from './components/Home/Blogs/Blogs';
+import Footer from './components/shared/Footer/Footer';
 
 
 function App() {
@@ -29,7 +31,11 @@ function App() {
         <Route exact path="/contact">
             <Contact></Contact>
           </Route>
+        <Route exact path="/blogs">
+            <Blogs></Blogs>
+          </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );

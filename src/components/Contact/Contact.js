@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
+
 import { Form } from 'react-bootstrap';
+import './Contact.css';
 
 const Contact = () => {
     const form = useRef();
@@ -17,7 +19,7 @@ const Contact = () => {
         e.target.reset();
     };
     return (
-        <Form ref={form} onSubmit={sendEmail} className="mx-5 my-5">
+        <Form ref={form} onSubmit={sendEmail} className="contact-body mx-5 my-5">
             
     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
     <Form.Label>Your Name</Form.Label>
@@ -30,8 +32,12 @@ const Contact = () => {
   <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
     <Form.Label>Your Message</Form.Label>
     <Form.Control as="textarea" placeholder="Your message" required name="message" rows={3} />
-            </Form.Group>
-            <input type="submit" value="Send" />
+        </Form.Group>
+        
+        <input type="submit" value="Send"
+            
+        />
+        
         </Form>
     );
 };
